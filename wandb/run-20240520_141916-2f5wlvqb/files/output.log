@@ -1,0 +1,173 @@
+
+EPOCH 1:
+  batch 1 loss: 4.315081238746643e-05
+*********************matrice de confusion***************train******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.51      0.91      0.66       135
+         1.0       0.43      0.07      0.12       125
+    accuracy                           0.51       260
+   macro avg       0.47      0.49      0.39       260
+weighted avg       0.47      0.51      0.40       260
+*********************matrice de confusion***************validation******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.57      0.88      0.69        33
+         1.0       0.73      0.33      0.46        33
+    accuracy                           0.61        66
+   macro avg       0.65      0.61      0.57        66
+weighted avg       0.65      0.61      0.57        66
+LOSS train 4.315081238746643e-05 valid 0.024220917373895645
+acc train 0.5076923076923077 valid 0.6060606060606061
+precision train 0.5076923076923077 valid 0.6060606060606061
+EPOCH 2:
+  batch 1 loss: 4.864906519651413e-05
+*********************matrice de confusion***************train******epoch  1
+              precision    recall  f1-score   support
+         0.0       0.54      0.82      0.65       135
+         1.0       0.56      0.24      0.34       125
+    accuracy                           0.54       260
+   macro avg       0.55      0.53      0.49       260
+weighted avg       0.55      0.54      0.50       260
+*********************matrice de confusion***************validation******epoch  1
+              precision    recall  f1-score   support
+         0.0       0.61      0.85      0.71        33
+         1.0       0.75      0.45      0.57        33
+    accuracy                           0.65        66
+   macro avg       0.68      0.65      0.64        66
+weighted avg       0.68      0.65      0.64        66
+LOSS train 4.864906519651413e-05 valid 0.023752262815833092
+acc train 0.5423076923076923 valid 0.6515151515151515
+precision train 0.5423076923076923 valid 0.6515151515151515
+EPOCH 3:
+  batch 1 loss: 4.670288413763046e-05
+*********************matrice de confusion***************train******epoch  2
+              precision    recall  f1-score   support
+         0.0       0.60      0.84      0.70       135
+         1.0       0.70      0.40      0.51       125
+    accuracy                           0.63       260
+   macro avg       0.65      0.62      0.61       260
+weighted avg       0.65      0.63      0.61       260
+*********************matrice de confusion***************validation******epoch  2
+              precision    recall  f1-score   support
+         0.0       0.60      0.79      0.68        33
+         1.0       0.70      0.48      0.57        33
+    accuracy                           0.64        66
+   macro avg       0.65      0.64      0.63        66
+weighted avg       0.65      0.64      0.63        66
+LOSS train 4.670288413763046e-05 valid 0.023382501676678658
+acc train 0.6307692307692307 valid 0.6363636363636364
+precision train 0.6307692307692307 valid 0.6363636363636364
+EPOCH 4:
+  batch 1 loss: 4.6812672168016436e-05
+*********************matrice de confusion***************train******epoch  3
+              precision    recall  f1-score   support
+         0.0       0.67      0.79      0.72       135
+         1.0       0.72      0.58      0.64       125
+    accuracy                           0.69       260
+   macro avg       0.69      0.68      0.68       260
+weighted avg       0.69      0.69      0.68       260
+*********************matrice de confusion***************validation******epoch  3
+              precision    recall  f1-score   support
+         0.0       0.63      0.82      0.71        33
+         1.0       0.74      0.52      0.61        33
+    accuracy                           0.67        66
+   macro avg       0.68      0.67      0.66        66
+weighted avg       0.68      0.67      0.66        66
+LOSS train 4.6812672168016436e-05 valid 0.02304801158607006
+acc train 0.6884615384615385 valid 0.6666666666666666
+precision train 0.6884615384615385 valid 0.6666666666666666
+EPOCH 5:
+  batch 1 loss: 4.475703835487366e-05
+*********************matrice de confusion***************train******epoch  4
+              precision    recall  f1-score   support
+         0.0       0.72      0.81      0.77       135
+         1.0       0.77      0.66      0.71       125
+    accuracy                           0.74       260
+   macro avg       0.75      0.74      0.74       260
+weighted avg       0.75      0.74      0.74       260
+*********************matrice de confusion***************validation******epoch  4
+              precision    recall  f1-score   support
+         0.0       0.64      0.82      0.72        33
+         1.0       0.75      0.55      0.63        33
+    accuracy                           0.68        66
+   macro avg       0.70      0.68      0.68        66
+weighted avg       0.70      0.68      0.68        66
+LOSS train 4.475703835487366e-05 valid 0.02272774837911129
+acc train 0.7423076923076923 valid 0.6818181818181818
+precision train 0.7423076923076923 valid 0.6818181818181818
+EPOCH 6:
+  batch 1 loss: 4.412936046719551e-05
+*********************matrice de confusion***************train******epoch  5
+              precision    recall  f1-score   support
+         0.0       0.75      0.80      0.77       135
+         1.0       0.77      0.71      0.74       125
+    accuracy                           0.76       260
+   macro avg       0.76      0.76      0.76       260
+weighted avg       0.76      0.76      0.76       260
+*********************matrice de confusion***************validation******epoch  5
+              precision    recall  f1-score   support
+         0.0       0.68      0.76      0.71        33
+         1.0       0.72      0.64      0.68        33
+    accuracy                           0.70        66
+   macro avg       0.70      0.70      0.70        66
+weighted avg       0.70      0.70      0.70        66
+LOSS train 4.412936046719551e-05 valid 0.022411465644836426
+acc train 0.7576923076923077 valid 0.696969696969697
+precision train 0.7576923076923077 valid 0.696969696969697
+EPOCH 7:
+  batch 1 loss: 4.135684669017792e-05
+*********************matrice de confusion***************train******epoch  6
+              precision    recall  f1-score   support
+         0.0       0.76      0.83      0.79       135
+         1.0       0.79      0.71      0.75       125
+    accuracy                           0.77       260
+   macro avg       0.78      0.77      0.77       260
+weighted avg       0.77      0.77      0.77       260
+*********************matrice de confusion***************validation******epoch  6
+              precision    recall  f1-score   support
+         0.0       0.67      0.73      0.70        33
+         1.0       0.70      0.64      0.67        33
+    accuracy                           0.68        66
+   macro avg       0.68      0.68      0.68        66
+weighted avg       0.68      0.68      0.68        66
+LOSS train 4.135684669017792e-05 valid 0.02210557647049427
+acc train 0.7730769230769231 valid 0.6818181818181818
+precision train 0.7730769230769231 valid 0.6818181818181818
+EPOCH 8:
+  batch 1 loss: 4.3845556676387784e-05
+*********************matrice de confusion***************train******epoch  7
+              precision    recall  f1-score   support
+         0.0       0.84      0.81      0.82       135
+         1.0       0.80      0.83      0.82       125
+    accuracy                           0.82       260
+   macro avg       0.82      0.82      0.82       260
+weighted avg       0.82      0.82      0.82       260
+*********************matrice de confusion***************validation******epoch  7
+              precision    recall  f1-score   support
+         0.0       0.68      0.76      0.71        33
+         1.0       0.72      0.64      0.68        33
+    accuracy                           0.70        66
+   macro avg       0.70      0.70      0.70        66
+weighted avg       0.70      0.70      0.70        66
+LOSS train 4.3845556676387784e-05 valid 0.021799864247441292
+acc train 0.8192307692307692 valid 0.696969696969697
+precision train 0.8192307692307692 valid 0.696969696969697
+EPOCH 9:
+  batch 1 loss: 4.178065061569214e-05
+Traceback (most recent call last):
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 449, in <module>
+    resultat_train_one_epoch= train_one_epoch(epoch_number, writer)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 371, in train_one_epoch
+    for i, data in enumerate(training_loader):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1284, in _get_data
+    success, data = self._try_get_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

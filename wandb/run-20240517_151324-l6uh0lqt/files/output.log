@@ -1,0 +1,96 @@
+
+EPOCH 1:
+  batch 1 loss: 0.00024401897564530373
+*********************matrice de confusion***************train******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.72      0.34      0.46        85
+         1.0       0.54      0.86      0.66        76
+    accuracy                           0.58       161
+   macro avg       0.63      0.60      0.56       161
+weighted avg       0.64      0.58      0.56       161
+*********************matrice de confusion***************validation******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.75      0.18      0.29        17
+         1.0       0.62      0.96      0.75        24
+    accuracy                           0.63        41
+   macro avg       0.69      0.57      0.52        41
+weighted avg       0.67      0.63      0.56        41
+LOSS train 0.00024401897564530373 valid 0.024159079417586327
+acc train 0.5595238095238095 valid 0.6341463414634146
+precision train 0.5838509316770186 valid 0.6341463414634146
+EPOCH 2:
+  batch 1 loss: 0.00024056751281023025
+*********************matrice de confusion***************train******epoch  1
+              precision    recall  f1-score   support
+         0.0       0.68      0.42      0.52        85
+         1.0       0.55      0.78      0.64        76
+    accuracy                           0.59       161
+   macro avg       0.61      0.60      0.58       161
+weighted avg       0.62      0.59      0.58       161
+*********************matrice de confusion***************validation******epoch  1
+              precision    recall  f1-score   support
+         0.0       1.00      0.47      0.64        17
+         1.0       0.73      1.00      0.84        24
+    accuracy                           0.78        41
+   macro avg       0.86      0.74      0.74        41
+weighted avg       0.84      0.78      0.76        41
+LOSS train 0.00024056751281023025 valid 0.023860834538936615
+acc train 0.5654761904761905 valid 0.7804878048780488
+precision train 0.5900621118012422 valid 0.7804878048780488
+EPOCH 3:
+  batch 1 loss: 0.00024024695158004762
+*********************matrice de confusion***************train******epoch  2
+              precision    recall  f1-score   support
+         0.0       0.73      0.51      0.60        85
+         1.0       0.59      0.79      0.67        76
+    accuracy                           0.64       161
+   macro avg       0.66      0.65      0.64       161
+weighted avg       0.66      0.64      0.63       161
+*********************matrice de confusion***************validation******epoch  2
+              precision    recall  f1-score   support
+         0.0       0.90      0.53      0.67        17
+         1.0       0.74      0.96      0.84        24
+    accuracy                           0.78        41
+   macro avg       0.82      0.74      0.75        41
+weighted avg       0.81      0.78      0.77        41
+LOSS train 0.00024024695158004762 valid 0.023829998448491096
+acc train 0.6547619047619048 valid 0.7804878048780488
+precision train 0.639751552795031 valid 0.7804878048780488
+EPOCH 4:
+  batch 1 loss: 0.0002383860945701599
+*********************matrice de confusion***************train******epoch  3
+              precision    recall  f1-score   support
+         0.0       0.70      0.55      0.62        85
+         1.0       0.60      0.74      0.66        76
+    accuracy                           0.64       161
+   macro avg       0.65      0.64      0.64       161
+weighted avg       0.65      0.64      0.64       161
+*********************matrice de confusion***************validation******epoch  3
+              precision    recall  f1-score   support
+         0.0       0.75      0.53      0.62        17
+         1.0       0.72      0.88      0.79        24
+    accuracy                           0.73        41
+   macro avg       0.74      0.70      0.71        41
+weighted avg       0.73      0.73      0.72        41
+LOSS train 0.0002383860945701599 valid 0.023796912282705307
+acc train 0.6130952380952381 valid 0.7317073170731707
+precision train 0.639751552795031 valid 0.7317073170731707
+EPOCH 5:
+  batch 1 loss: 0.00023423070088028907
+*********************matrice de confusion***************train******epoch  4
+              precision    recall  f1-score   support
+         0.0       0.70      0.60      0.65        85
+         1.0       0.61      0.71      0.66        76
+    accuracy                           0.65       161
+   macro avg       0.66      0.66      0.65       161
+weighted avg       0.66      0.65      0.65       161
+*********************matrice de confusion***************validation******epoch  4
+              precision    recall  f1-score   support
+         0.0       0.73      0.65      0.69        17
+         1.0       0.77      0.83      0.80        24
+    accuracy                           0.76        41
+   macro avg       0.75      0.74      0.74        41
+weighted avg       0.75      0.76      0.75        41
+LOSS train 0.00023423070088028907 valid 0.023764200508594513
+acc train 0.625 valid 0.7560975609756098
+precision train 0.6521739130434783 valid 0.7560975609756098

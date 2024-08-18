@@ -1,0 +1,163 @@
+2024-05-17 14:58:07,940 INFO    StreamThr :93702 [internal.py:wandb_internal():85] W&B internal server running at pid: 93702, started at: 2024-05-17 14:58:07.939595
+2024-05-17 14:58:07,942 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status
+2024-05-17 14:58:07,944 INFO    WriterThread:93702 [datastore.py:open_for_write():87] open: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/run-ijz3pd1m.wandb
+2024-05-17 14:58:07,945 DEBUG   SenderThread:93702 [sender.py:send():378] send: header
+2024-05-17 14:58:07,946 DEBUG   SenderThread:93702 [sender.py:send():378] send: run
+2024-05-17 14:58:08,345 INFO    SenderThread:93702 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files
+2024-05-17 14:58:08,346 INFO    SenderThread:93702 [sender.py:_start_run_threads():1123] run started: ijz3pd1m with start time 1715957887.94059
+2024-05-17 14:58:08,351 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: check_version
+2024-05-17 14:58:08,351 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: check_version
+2024-05-17 14:58:08,427 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: run_start
+2024-05-17 14:58:08,439 DEBUG   HandlerThread:93702 [system_info.py:__init__():26] System info init
+2024-05-17 14:58:08,439 DEBUG   HandlerThread:93702 [system_info.py:__init__():41] System info init done
+2024-05-17 14:58:08,439 INFO    HandlerThread:93702 [system_monitor.py:start():194] Starting system monitor
+2024-05-17 14:58:08,440 INFO    SystemMonitor:93702 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-17 14:58:08,440 INFO    HandlerThread:93702 [system_monitor.py:probe():214] Collecting system info
+2024-05-17 14:58:08,440 INFO    SystemMonitor:93702 [interfaces.py:start():188] Started cpu monitoring
+2024-05-17 14:58:08,441 INFO    SystemMonitor:93702 [interfaces.py:start():188] Started disk monitoring
+2024-05-17 14:58:08,442 INFO    SystemMonitor:93702 [interfaces.py:start():188] Started gpu monitoring
+2024-05-17 14:58:08,443 INFO    SystemMonitor:93702 [interfaces.py:start():188] Started memory monitoring
+2024-05-17 14:58:08,444 INFO    SystemMonitor:93702 [interfaces.py:start():188] Started network monitoring
+2024-05-17 14:58:08,450 DEBUG   HandlerThread:93702 [system_info.py:probe():150] Probing system
+2024-05-17 14:58:08,452 DEBUG   HandlerThread:93702 [gitlib.py:_init_repo():56] git repository is invalid
+2024-05-17 14:58:08,452 DEBUG   HandlerThread:93702 [system_info.py:probe():198] Probing system done
+2024-05-17 14:58:08,452 DEBUG   HandlerThread:93702 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1060-gcp-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2024-05-17T14:58:08.450558', 'startedAt': '2024-05-17T14:58:07.910732', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/ubuntu/pytorchvideoamine-main/trainX3D.py', 'codePathLocal': 'trainX3D.py', 'codePath': 'trainX3D.py', 'host': 'sl-dev-anavid-gpu01', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yowo/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2000.1339999999989, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 101.57798767089844, 'used': 96.98482131958008}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 49.00514602661133}}
+2024-05-17 14:58:08,452 INFO    HandlerThread:93702 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-17 14:58:08,452 INFO    HandlerThread:93702 [system_monitor.py:probe():227] Publishing system info
+2024-05-17 14:58:08,452 DEBUG   HandlerThread:93702 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-17 14:58:09,347 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/conda-environment.yaml
+2024-05-17 14:58:22,256 DEBUG   HandlerThread:93702 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-17 14:58:22,257 INFO    HandlerThread:93702 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-17 14:58:22,309 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:22,310 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: keepalive
+2024-05-17 14:58:22,310 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:22,310 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: keepalive
+2024-05-17 14:58:22,310 DEBUG   SenderThread:93702 [sender.py:send():378] send: files
+2024-05-17 14:58:22,310 INFO    SenderThread:93702 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-17 14:58:22,350 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/conda-environment.yaml
+2024-05-17 14:58:22,350 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/wandb-metadata.json
+2024-05-17 14:58:22,399 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-17 14:58:22,400 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: python_packages
+2024-05-17 14:58:22,400 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:58:22,400 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:58:22,590 DEBUG   SenderThread:93702 [sender.py:send():378] send: telemetry
+2024-05-17 14:58:22,826 INFO    wandb-upload_0:93702 [upload_job.py:push():130] Uploaded file /tmp/tmpgsguafz4wandb/1ornwz5e-wandb-metadata.json
+2024-05-17 14:58:23,350 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/requirements.txt
+2024-05-17 14:58:23,351 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/output.log
+2024-05-17 14:58:23,592 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:25,351 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/output.log
+2024-05-17 14:58:28,593 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:33,355 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/output.log
+2024-05-17 14:58:33,709 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:37,400 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:58:37,401 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:58:39,555 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:40,358 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/config.yaml
+2024-05-17 14:58:44,745 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:49,746 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:58:52,401 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:58:52,401 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:58:55,608 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:00,610 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:05,611 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:07,400 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:59:07,401 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:59:08,444 DEBUG   SystemMonitor:93702 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-17 14:59:08,446 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 14:59:11,447 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:16,449 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:21,450 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:22,401 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:59:22,401 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:59:26,618 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:31,619 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:36,621 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:37,401 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:59:37,402 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:59:38,447 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 14:59:42,448 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:47,449 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:52,401 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:59:52,401 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:59:52,582 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:59:57,583 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:02,585 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:07,401 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:00:07,402 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:00:07,645 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:08,449 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 15:00:13,451 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:18,452 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:22,402 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:00:22,402 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:00:23,619 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:28,620 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:33,621 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:37,402 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:00:37,402 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:00:38,449 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 15:00:39,450 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:44,452 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:49,453 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:52,402 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:00:52,403 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:00:54,563 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:00:59,564 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:04,565 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:07,403 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:01:07,404 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:01:08,450 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 15:01:10,451 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:15,452 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:20,453 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:22,402 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:01:22,403 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:01:25,588 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:31,430 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/output.log
+2024-05-17 15:01:31,571 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:36,572 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:37,402 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:01:37,403 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:01:38,451 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 15:01:42,452 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:47,453 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:52,513 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:01:52,543 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:01:52,543 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:01:57,699 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:02,700 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:07,753 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:07,753 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:02:07,754 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:02:09,076 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 15:02:13,078 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:18,079 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:22,404 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:02:22,425 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:02:23,624 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:28,625 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:33,681 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:39,054 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:02:39,278 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:39,432 DEBUG   SenderThread:93702 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:02:40,946 DEBUG   SenderThread:93702 [sender.py:send():378] send: stats
+2024-05-17 15:02:44,947 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:50,826 DEBUG   HandlerThread:93702 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:02:50,922 WARNING StreamThr :93702 [internal.py:is_dead():413] Internal process exiting, parent pid 93418 disappeared
+2024-05-17 15:02:51,722 ERROR   StreamThr :93702 [internal.py:wandb_internal():151] Internal process shutdown.
+2024-05-17 15:02:51,864 INFO    memory    :93702 [interfaces.py:monitor():138] Process proc.memory.rssMB has exited.
+2024-05-17 15:02:51,999 INFO    SenderThread:93702 [sender.py:finish():1545] shutting down sender
+2024-05-17 15:02:52,159 INFO    cpu       :93702 [interfaces.py:monitor():138] Process cpu has exited.
+2024-05-17 15:02:52,446 DEBUG   SystemMonitor:93702 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-17 15:02:52,646 DEBUG   SystemMonitor:93702 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-17 15:02:52,498 INFO    HandlerThread:93702 [handler.py:finish():882] shutting down handler
+2024-05-17 15:02:52,770 INFO    WriterThread:93702 [datastore.py:close():296] close: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/run-ijz3pd1m.wandb
+2024-05-17 15:02:52,777 INFO    HandlerThread:93702 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-17 15:02:52,779 INFO    HandlerThread:93702 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-17 15:02:52,794 INFO    HandlerThread:93702 [interfaces.py:finish():200] Joined disk monitor
+2024-05-17 15:02:52,819 INFO    HandlerThread:93702 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-17 15:02:52,820 INFO    HandlerThread:93702 [interfaces.py:finish():200] Joined memory monitor
+2024-05-17 15:02:52,899 INFO    HandlerThread:93702 [interfaces.py:finish():200] Joined network monitor
+2024-05-17 15:02:53,096 INFO    SenderThread:93702 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-17 15:02:53,358 INFO    MainThread:93702 [internal.py:handle_exit():75] Internal process exited
+2024-05-17 15:02:53,781 INFO    Thread-12 :93702 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145807-ijz3pd1m/files/output.log

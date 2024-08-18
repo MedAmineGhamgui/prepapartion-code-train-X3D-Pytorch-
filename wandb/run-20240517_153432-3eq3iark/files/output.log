@@ -1,0 +1,140 @@
+
+EPOCH 1:
+  batch 1 loss: 0.00025125447660684586
+*********************matrice de confusion***************train******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.47      0.12      0.19       116
+         1.0       0.52      0.87      0.65       125
+    accuracy                           0.51       241
+   macro avg       0.49      0.50      0.42       241
+weighted avg       0.49      0.51      0.43       241
+*********************matrice de confusion***************validation******epoch  0
+              precision    recall  f1-score   support
+         0.0       1.00      0.06      0.11        36
+         1.0       0.42      1.00      0.60        25
+    accuracy                           0.44        61
+   macro avg       0.71      0.53      0.35        61
+weighted avg       0.76      0.44      0.31        61
+LOSS train 0.00025125447660684586 valid 0.025009578093886375
+acc train 0.4959677419354839 valid 0.4426229508196721
+precision train 0.5103734439834025 valid 0.4426229508196721
+EPOCH 2:
+  batch 1 loss: 0.00024842821061611176
+*********************matrice de confusion***************train******epoch  1
+              precision    recall  f1-score   support
+         0.0       0.54      0.16      0.25       116
+         1.0       0.53      0.87      0.66       125
+    accuracy                           0.53       241
+   macro avg       0.54      0.52      0.46       241
+weighted avg       0.54      0.53      0.46       241
+*********************matrice de confusion***************validation******epoch  1
+              precision    recall  f1-score   support
+         0.0       1.00      0.06      0.11        36
+         1.0       0.42      1.00      0.60        25
+    accuracy                           0.44        61
+   macro avg       0.71      0.53      0.35        61
+weighted avg       0.76      0.44      0.31        61
+LOSS train 0.00024842821061611176 valid 0.025012366473674774
+acc train 0.5443548387096774 valid 0.4426229508196721
+precision train 0.5311203319502075 valid 0.4426229508196721
+EPOCH 3:
+  batch 1 loss: 0.00024954788386821747
+*********************matrice de confusion***************train******epoch  2
+              precision    recall  f1-score   support
+         0.0       0.57      0.14      0.22       116
+         1.0       0.53      0.90      0.67       125
+    accuracy                           0.54       241
+   macro avg       0.55      0.52      0.45       241
+weighted avg       0.55      0.54      0.45       241
+*********************matrice de confusion***************validation******epoch  2
+              precision    recall  f1-score   support
+         0.0       0.00      0.00      0.00        36
+         1.0       0.41      1.00      0.58        25
+    accuracy                           0.41        61
+   macro avg       0.20      0.50      0.29        61
+weighted avg       0.17      0.41      0.24        61
+LOSS train 0.00024954788386821747 valid 0.024963032454252243
+acc train 0.5483870967741935 valid 0.4098360655737705
+precision train 0.5352697095435685 valid 0.4098360655737705
+EPOCH 4:
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+  batch 1 loss: 0.000248044952750206
+*********************matrice de confusion***************train******epoch  3
+              precision    recall  f1-score   support
+         0.0       0.74      0.20      0.31       116
+         1.0       0.56      0.94      0.70       125
+    accuracy                           0.58       241
+   macro avg       0.65      0.57      0.51       241
+weighted avg       0.65      0.58      0.51       241
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+*********************matrice de confusion***************validation******epoch  3
+              precision    recall  f1-score   support
+         0.0       0.00      0.00      0.00        36
+         1.0       0.41      1.00      0.58        25
+    accuracy                           0.41        61
+   macro avg       0.20      0.50      0.29        61
+weighted avg       0.17      0.41      0.24        61
+LOSS train 0.000248044952750206 valid 0.024911796674132347
+acc train 0.592741935483871 valid 0.4098360655737705
+precision train 0.5809128630705395 valid 0.4098360655737705
+EPOCH 5:
+  batch 1 loss: 0.0002464333921670914
+*********************matrice de confusion***************train******epoch  4
+              precision    recall  f1-score   support
+         0.0       0.71      0.17      0.28       116
+         1.0       0.55      0.94      0.69       125
+    accuracy                           0.57       241
+   macro avg       0.63      0.55      0.49       241
+weighted avg       0.63      0.57      0.49       241
+*********************matrice de confusion***************validation******epoch  4
+              precision    recall  f1-score   support
+         0.0       0.00      0.00      0.00        36
+         1.0       0.41      1.00      0.58        25
+    accuracy                           0.41        61
+   macro avg       0.20      0.50      0.29        61
+weighted avg       0.17      0.41      0.24        61
+LOSS train 0.0002464333921670914 valid 0.024861671030521393
+acc train 0.5806451612903226 valid 0.4098360655737705
+precision train 0.5684647302904564 valid 0.4098360655737705
+EPOCH 6:
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+  batch 1 loss: 0.00024567455053329466
+Traceback (most recent call last):
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 445, in <module>
+    resultat_train_one_epoch= train_one_epoch(epoch_number, writer)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 370, in train_one_epoch
+    for i, data in enumerate(training_loader):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 147, in __getitem__
+    frame_idx, video_clip, target = self.pull_item(idx)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 165, in pull_item
+    video_data = clip.get_clip(start_sec=start_sec, end_sec=end_sec)
+  File "/home/ubuntu/pytorchvideoamine-main/pytorchvideo/data/encoded_video_pyav.py", line 181, in get_clip
+    self._video, self._audio = self._pyav_decode_video(start_sec, end_sec)
+  File "/home/ubuntu/pytorchvideoamine-main/pytorchvideo/data/encoded_video_pyav.py", line 279, in _pyav_decode_video
+    video_and_pts = [
+  File "/home/ubuntu/pytorchvideoamine-main/pytorchvideo/data/encoded_video_pyav.py", line 280, in <listcomp>
+    (torch.from_numpy(frame.to_rgb().to_ndarray()), frame.pts)
+KeyboardInterrupt

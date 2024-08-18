@@ -1,0 +1,395 @@
+2024-05-17 14:50:11,736 INFO    StreamThr :90964 [internal.py:wandb_internal():85] W&B internal server running at pid: 90964, started at: 2024-05-17 14:50:11.735766
+2024-05-17 14:50:11,738 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status
+2024-05-17 14:50:11,740 INFO    WriterThread:90964 [datastore.py:open_for_write():87] open: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/run-fyau0d0j.wandb
+2024-05-17 14:50:11,741 DEBUG   SenderThread:90964 [sender.py:send():378] send: header
+2024-05-17 14:50:11,741 DEBUG   SenderThread:90964 [sender.py:send():378] send: run
+2024-05-17 14:50:12,113 INFO    SenderThread:90964 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files
+2024-05-17 14:50:12,113 INFO    SenderThread:90964 [sender.py:_start_run_threads():1123] run started: fyau0d0j with start time 1715957411.735628
+2024-05-17 14:50:12,124 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: check_version
+2024-05-17 14:50:12,124 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: check_version
+2024-05-17 14:50:12,202 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: run_start
+2024-05-17 14:50:12,214 DEBUG   HandlerThread:90964 [system_info.py:__init__():26] System info init
+2024-05-17 14:50:12,214 DEBUG   HandlerThread:90964 [system_info.py:__init__():41] System info init done
+2024-05-17 14:50:12,214 INFO    HandlerThread:90964 [system_monitor.py:start():194] Starting system monitor
+2024-05-17 14:50:12,214 INFO    SystemMonitor:90964 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-17 14:50:12,215 INFO    HandlerThread:90964 [system_monitor.py:probe():214] Collecting system info
+2024-05-17 14:50:12,215 INFO    SystemMonitor:90964 [interfaces.py:start():188] Started cpu monitoring
+2024-05-17 14:50:12,216 INFO    SystemMonitor:90964 [interfaces.py:start():188] Started disk monitoring
+2024-05-17 14:50:12,217 INFO    SystemMonitor:90964 [interfaces.py:start():188] Started gpu monitoring
+2024-05-17 14:50:12,217 INFO    SystemMonitor:90964 [interfaces.py:start():188] Started memory monitoring
+2024-05-17 14:50:12,218 INFO    SystemMonitor:90964 [interfaces.py:start():188] Started network monitoring
+2024-05-17 14:50:12,225 DEBUG   HandlerThread:90964 [system_info.py:probe():150] Probing system
+2024-05-17 14:50:12,227 DEBUG   HandlerThread:90964 [gitlib.py:_init_repo():56] git repository is invalid
+2024-05-17 14:50:12,227 DEBUG   HandlerThread:90964 [system_info.py:probe():198] Probing system done
+2024-05-17 14:50:12,227 DEBUG   HandlerThread:90964 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1060-gcp-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2024-05-17T14:50:12.225835', 'startedAt': '2024-05-17T14:50:11.731905', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/ubuntu/pytorchvideoamine-main/trainX3D.py', 'codePathLocal': 'trainX3D.py', 'codePath': 'trainX3D.py', 'host': 'sl-dev-anavid-gpu01', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/yowo/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2000.1339999999989, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}, {'current': 2000.134, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 101.57798767089844, 'used': 96.98422622680664}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 49.00514602661133}}
+2024-05-17 14:50:12,227 INFO    HandlerThread:90964 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-17 14:50:12,227 INFO    HandlerThread:90964 [system_monitor.py:probe():227] Publishing system info
+2024-05-17 14:50:12,227 DEBUG   HandlerThread:90964 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-17 14:50:13,114 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/conda-environment.yaml
+2024-05-17 14:50:14,650 DEBUG   HandlerThread:90964 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-17 14:50:14,651 INFO    HandlerThread:90964 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-17 14:50:14,655 DEBUG   SenderThread:90964 [sender.py:send():378] send: files
+2024-05-17 14:50:14,655 INFO    SenderThread:90964 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-17 14:50:14,726 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-17 14:50:14,726 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: python_packages
+2024-05-17 14:50:14,727 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:50:14,727 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:50:14,971 DEBUG   SenderThread:90964 [sender.py:send():378] send: telemetry
+2024-05-17 14:50:15,114 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/conda-environment.yaml
+2024-05-17 14:50:15,114 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/requirements.txt
+2024-05-17 14:50:15,114 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:15,115 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/wandb-metadata.json
+2024-05-17 14:50:15,237 INFO    wandb-upload_0:90964 [upload_job.py:push():130] Uploaded file /tmp/tmpf38kop1jwandb/kwzuw1fd-wandb-metadata.json
+2024-05-17 14:50:17,105 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:17,115 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:19,116 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:21,117 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:22,257 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:23,118 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:25,119 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:27,120 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:27,273 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:29,120 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:29,727 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:50:29,727 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:50:31,122 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:32,388 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:33,123 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:35,123 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:37,124 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:37,520 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:39,125 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:41,126 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:43,127 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:43,310 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:44,127 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/config.yaml
+2024-05-17 14:50:44,727 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:50:44,728 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:50:45,128 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:47,129 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:49,074 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:49,129 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:51,130 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:53,131 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:54,535 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:55,132 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:57,133 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:59,133 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:50:59,582 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:50:59,727 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:50:59,728 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:51:01,134 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:03,135 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:04,801 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:05,136 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:07,137 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:09,138 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:09,904 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:11,139 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:12,219 DEBUG   SystemMonitor:90964 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-17 14:51:12,220 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:51:13,139 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:14,727 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:51:14,728 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:51:15,140 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:15,887 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:17,141 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:19,142 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:21,035 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:21,143 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:23,144 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:25,144 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:26,071 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:27,145 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:29,146 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:29,728 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:51:29,728 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:51:31,138 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:31,148 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:33,149 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:35,149 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:36,223 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:37,150 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:39,151 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:41,152 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:41,407 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:42,221 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:51:43,153 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:44,728 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:51:44,729 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:51:45,153 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:46,541 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:47,154 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:49,155 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:51,156 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:51,658 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:53,157 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:55,158 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:57,159 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:57,277 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:51:59,159 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:51:59,728 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:51:59,729 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:52:01,162 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:02,675 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:03,164 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:06,165 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:07,835 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:08,166 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:10,167 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:12,168 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:12,222 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:52:13,011 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:14,169 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:14,728 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:52:14,729 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:52:16,169 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:18,067 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:18,170 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:20,171 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:22,172 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:23,229 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:24,174 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:26,174 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:28,175 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:28,363 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:29,728 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:52:29,729 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:52:30,176 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:32,177 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:33,429 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:34,178 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:36,179 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:38,180 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:39,100 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:40,180 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:42,181 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:42,224 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:52:44,119 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:44,182 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:44,729 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:52:44,730 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:52:46,183 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:48,184 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:49,184 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:50,185 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:52,186 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:54,187 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:54,324 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:56,188 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:58,189 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:52:59,492 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:52:59,729 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:52:59,730 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:53:00,190 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:02,191 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:04,192 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:04,705 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:06,193 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:08,194 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:10,084 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:10,194 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:12,195 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:12,224 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:53:14,196 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:14,729 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:53:14,730 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:53:15,311 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:16,197 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:18,198 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:20,199 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:20,546 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:22,199 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:24,200 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:25,657 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:26,201 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:28,202 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:29,729 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:53:29,730 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:53:30,203 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:31,178 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:32,203 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:34,205 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:36,199 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:36,205 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:38,206 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:40,207 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:41,431 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:42,208 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:42,238 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:53:44,209 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:44,729 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:53:44,730 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:53:46,210 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:46,729 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:48,211 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:50,211 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:52,105 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:52,212 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:54,213 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:56,214 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:53:57,389 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:53:58,215 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:00,215 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:00,433 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:54:00,434 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:54:02,216 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:02,792 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:54:04,217 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:06,218 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:08,417 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:54:12,220 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:12,227 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:54:13,881 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:54:14,221 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:15,502 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 14:54:15,504 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 14:54:16,222 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:18,223 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:18,945 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:54:20,224 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:22,225 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:24,225 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:24,382 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:54:26,226 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:28,101 DEBUG   SenderThread:90964 [sender.py:send():378] send: exit
+2024-05-17 14:54:28,125 INFO    SenderThread:90964 [sender.py:send_exit():585] handling exit code: 255
+2024-05-17 14:54:28,295 INFO    SenderThread:90964 [sender.py:send_exit():587] handling runtime: 255
+2024-05-17 14:54:28,296 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:28,380 INFO    SenderThread:90964 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 14:54:28,474 INFO    SenderThread:90964 [sender.py:send_exit():593] send defer
+2024-05-17 14:54:28,485 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,512 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-17 14:54:28,556 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,557 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-17 14:54:28,558 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 1
+2024-05-17 14:54:28,559 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,559 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-17 14:54:28,560 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,560 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-17 14:54:28,560 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 2
+2024-05-17 14:54:28,561 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,561 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-17 14:54:28,564 INFO    HandlerThread:90964 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-17 14:54:28,566 INFO    HandlerThread:90964 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-17 14:54:28,570 DEBUG   SystemMonitor:90964 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-17 14:54:28,579 DEBUG   SystemMonitor:90964 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-17 14:54:28,595 INFO    HandlerThread:90964 [interfaces.py:finish():200] Joined disk monitor
+2024-05-17 14:54:28,706 INFO    HandlerThread:90964 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-17 14:54:28,707 INFO    HandlerThread:90964 [interfaces.py:finish():200] Joined memory monitor
+2024-05-17 14:54:28,708 INFO    HandlerThread:90964 [interfaces.py:finish():200] Joined network monitor
+2024-05-17 14:54:28,709 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,710 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-17 14:54:28,710 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 3
+2024-05-17 14:54:28,710 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,710 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-17 14:54:28,711 DEBUG   SenderThread:90964 [sender.py:send():378] send: stats
+2024-05-17 14:54:28,712 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,712 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-17 14:54:28,712 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 4
+2024-05-17 14:54:28,712 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,712 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-17 14:54:28,720 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,720 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-17 14:54:28,720 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 5
+2024-05-17 14:54:28,720 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,720 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-17 14:54:28,727 DEBUG   SenderThread:90964 [sender.py:send():378] send: summary
+2024-05-17 14:54:28,730 INFO    SenderThread:90964 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 14:54:28,730 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,730 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-17 14:54:28,730 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 6
+2024-05-17 14:54:28,730 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,730 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-17 14:54:28,730 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,731 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-17 14:54:28,743 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 7
+2024-05-17 14:54:28,743 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 14:54:28,743 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:28,743 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-17 14:54:28,743 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:28,743 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-17 14:54:29,212 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 14:54:29,296 INFO    Thread-12 :90964 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/wandb-summary.json
+2024-05-17 14:54:29,624 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 8
+2024-05-17 14:54:29,624 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 14:54:29,632 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:29,668 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-17 14:54:29,720 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:29,720 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-17 14:54:29,830 INFO    SenderThread:90964 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-17 14:54:29,954 INFO    SenderThread:90964 [job_builder.py:_get_source_type():576] no source found
+2024-05-17 14:54:29,967 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 9
+2024-05-17 14:54:29,967 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:29,967 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-17 14:54:29,967 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:29,967 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-17 14:54:29,967 INFO    SenderThread:90964 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-17 14:54:30,215 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 14:54:30,358 INFO    SenderThread:90964 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:30,421 INFO    SenderThread:90964 [dir_watcher.py:finish():388] scan: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files
+2024-05-17 14:54:30,495 INFO    SenderThread:90964 [dir_watcher.py:finish():402] scan save: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/requirements.txt requirements.txt
+2024-05-17 14:54:30,564 INFO    SenderThread:90964 [dir_watcher.py:finish():402] scan save: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/config.yaml config.yaml
+2024-05-17 14:54:30,585 INFO    SenderThread:90964 [dir_watcher.py:finish():402] scan save: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/wandb-metadata.json wandb-metadata.json
+2024-05-17 14:54:30,588 INFO    SenderThread:90964 [dir_watcher.py:finish():402] scan save: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/conda-environment.yaml conda-environment.yaml
+2024-05-17 14:54:30,588 INFO    SenderThread:90964 [dir_watcher.py:finish():402] scan save: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log output.log
+2024-05-17 14:54:30,588 INFO    SenderThread:90964 [dir_watcher.py:finish():402] scan save: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/wandb-summary.json wandb-summary.json
+2024-05-17 14:54:30,590 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 10
+2024-05-17 14:54:30,591 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 14:54:30,631 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:30,656 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-17 14:54:30,760 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:30,760 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-17 14:54:30,761 INFO    SenderThread:90964 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-17 14:54:31,714 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 14:54:31,801 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 14:54:32,718 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 14:54:32,718 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 14:54:32,849 INFO    wandb-upload_4:90964 [upload_job.py:push():130] Uploaded file /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/wandb-summary.json
+2024-05-17 14:54:32,864 INFO    wandb-upload_1:90964 [upload_job.py:push():130] Uploaded file /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/config.yaml
+2024-05-17 14:54:33,081 INFO    wandb-upload_0:90964 [upload_job.py:push():130] Uploaded file /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/requirements.txt
+2024-05-17 14:54:33,082 INFO    wandb-upload_2:90964 [upload_job.py:push():130] Uploaded file /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/conda-environment.yaml
+2024-05-17 14:54:33,105 INFO    wandb-upload_3:90964 [upload_job.py:push():130] Uploaded file /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/files/output.log
+2024-05-17 14:54:33,306 INFO    Thread-11 (_thread_body):90964 [sender.py:transition_state():613] send defer: 11
+2024-05-17 14:54:33,308 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:33,308 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-17 14:54:33,310 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:33,310 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-17 14:54:33,310 INFO    SenderThread:90964 [file_pusher.py:join():175] waiting for file pusher
+2024-05-17 14:54:33,322 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 12
+2024-05-17 14:54:33,323 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:33,323 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-17 14:54:33,323 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:33,323 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-17 14:54:33,323 INFO    SenderThread:90964 [file_stream.py:finish():601] file stream finish called
+2024-05-17 14:54:33,479 INFO    SenderThread:90964 [file_stream.py:finish():605] file stream finish is done
+2024-05-17 14:54:33,479 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 13
+2024-05-17 14:54:33,479 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:33,479 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-17 14:54:33,480 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:33,480 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-17 14:54:33,529 INFO    SenderThread:90964 [sender.py:transition_state():613] send defer: 14
+2024-05-17 14:54:33,529 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 14:54:33,529 INFO    HandlerThread:90964 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-17 14:54:33,530 DEBUG   SenderThread:90964 [sender.py:send():378] send: final
+2024-05-17 14:54:33,530 DEBUG   SenderThread:90964 [sender.py:send():378] send: footer
+2024-05-17 14:54:33,531 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: defer
+2024-05-17 14:54:33,531 INFO    SenderThread:90964 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-17 14:54:33,533 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 14:54:33,535 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 14:54:33,537 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 14:54:33,539 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 14:54:33,539 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: server_info
+2024-05-17 14:54:33,539 DEBUG   SenderThread:90964 [sender.py:send_request():405] send_request: server_info
+2024-05-17 14:54:33,557 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-17 14:54:33,559 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-17 14:54:33,562 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-17 14:54:33,684 INFO    MainThread:90964 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-17 14:54:33,684 INFO    MainThread:90964 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-17 14:54:33,693 INFO    MainThread:90964 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-17 14:54:33,726 DEBUG   HandlerThread:90964 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-17 14:54:33,726 INFO    HandlerThread:90964 [handler.py:finish():882] shutting down handler
+2024-05-17 14:54:34,541 INFO    WriterThread:90964 [datastore.py:close():296] close: /home/ubuntu/pytorchvideoamine-main/wandb/run-20240517_145011-fyau0d0j/run-fyau0d0j.wandb
+2024-05-17 14:54:34,680 INFO    SenderThread:90964 [sender.py:finish():1545] shutting down sender
+2024-05-17 14:54:34,680 INFO    SenderThread:90964 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-17 14:54:34,681 INFO    SenderThread:90964 [file_pusher.py:join():175] waiting for file pusher

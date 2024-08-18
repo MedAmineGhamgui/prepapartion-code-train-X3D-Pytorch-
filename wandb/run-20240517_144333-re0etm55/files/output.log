@@ -1,0 +1,266 @@
+EPOCH 1:
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+  batch 6 loss: 0.014561741799116134
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [0]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+**************l_entiers    [1]
+********** type ****l_entiers    <class 'list'>
+Traceback (most recent call last):
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 443, in <module>
+    resultat_train_one_epoch= train_one_epoch(epoch_number, writer)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 368, in train_one_epoch
+    for i, data in enumerate(training_loader):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 145, in __getitem__
+    frame_idx, video_clip, target = self.pull_item(idx)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 163, in pull_item
+    video_data = clip.get_clip(start_sec=start_sec, end_sec=end_sec)
+  File "/home/ubuntu/pytorchvideoamine-main/pytorchvideo/data/encoded_video_pyav.py", line 181, in get_clip
+    self._video, self._audio = self._pyav_decode_video(start_sec, end_sec)
+  File "/home/ubuntu/pytorchvideoamine-main/pytorchvideo/data/encoded_video_pyav.py", line 260, in _pyav_decode_video
+    pyav_video_frames, _ = _pyav_decode_stream(
+  File "/home/ubuntu/pytorchvideoamine-main/pytorchvideo/data/encoded_video_pyav.py", line 357, in _pyav_decode_stream
+    max_pts = max(max_pts, frame.pts)
+KeyboardInterrupt

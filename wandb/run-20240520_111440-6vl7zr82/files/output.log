@@ -1,0 +1,27 @@
+
+EPOCH 1:
+  batch 1 loss: 0.0002610471099615097
+  batch 101 loss: 0.024969105385243894
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/lib/exit_hooks.py", line 41, in exc_handler
+    def exc_handler(
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 446, in <module>
+    resultat_train_one_epoch= train_one_epoch(epoch_number, writer)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 371, in train_one_epoch
+    for i, data in enumerate(training_loader):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1284, in _get_data
+    success, data = self._try_get_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

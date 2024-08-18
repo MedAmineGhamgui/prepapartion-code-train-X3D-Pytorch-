@@ -1,0 +1,400 @@
+
+EPOCH 1:
+  batch 1 loss: 0.025752758607268333
+  batch 1 loss: 5.1505517214536664e-05
+  batch 2 loss: 0.020261183381080627
+  batch 3 loss: 0.024164769798517227
+  batch 4 loss: 0.025187602266669273
+  batch 5 loss: 0.024459300562739372
+  batch 6 loss: 0.02650466561317444
+  batch 7 loss: 0.026589661836624146
+  batch 8 loss: 0.02719193510711193
+  batch 9 loss: 0.024936731904745102
+  batch 10 loss: 0.023129191249608994
+  batch 11 loss: 0.028175273910164833
+  batch 12 loss: 0.026232721284031868
+  batch 13 loss: 0.026447460055351257
+  batch 14 loss: 0.025319578126072884
+  batch 15 loss: 0.027291912585496902
+  batch 16 loss: 0.027224522083997726
+  batch 17 loss: 0.024985510855913162
+  batch 18 loss: 0.02223324030637741
+  batch 19 loss: 0.02553410455584526
+  batch 20 loss: 0.025512471795082092
+  batch 21 loss: 0.025493890047073364
+  batch 22 loss: 0.02670353278517723
+  batch 23 loss: 0.02926376648247242
+  batch 24 loss: 0.026725275442004204
+  batch 25 loss: 0.02445225790143013
+  batch 26 loss: 0.024768797680735588
+  batch 27 loss: 0.02528807893395424
+  batch 28 loss: 0.02294694259762764
+  batch 29 loss: 0.02295527793467045
+  batch 30 loss: 0.025426965206861496
+  batch 31 loss: 0.02663556858897209
+  batch 32 loss: 0.025960702449083328
+  batch 33 loss: 0.024031691253185272
+  batch 34 loss: 0.023553872480988503
+  batch 35 loss: 0.02480248734354973
+  batch 36 loss: 0.022204050794243813
+  batch 37 loss: 0.026619624346494675
+  batch 38 loss: 0.0258286502212286
+  batch 39 loss: 0.02306842990219593
+  batch 40 loss: 0.026234095916152
+  batch 41 loss: 0.022596323862671852
+  batch 42 loss: 0.027395933866500854
+  batch 43 loss: 0.023917928338050842
+  batch 44 loss: 0.02608763799071312
+  batch 45 loss: 0.023863155394792557
+  batch 46 loss: 0.02493957057595253
+  batch 47 loss: 0.023920342326164246
+  batch 48 loss: 0.02324298769235611
+  batch 49 loss: 0.02354629710316658
+  batch 50 loss: 0.02539472095668316
+  batch 51 loss: 0.02483777329325676
+  batch 52 loss: 0.022762954235076904
+  batch 53 loss: 0.026837671175599098
+  batch 54 loss: 0.024216001853346825
+  batch 55 loss: 0.02688933163881302
+  batch 56 loss: 0.024676118046045303
+  batch 57 loss: 0.02553725242614746
+  batch 58 loss: 0.02428165264427662
+  batch 59 loss: 0.02779487520456314
+  batch 60 loss: 0.025953145697712898
+  batch 61 loss: 0.02586406283080578
+  batch 62 loss: 0.02453407272696495
+  batch 63 loss: 0.023304753005504608
+  batch 64 loss: 0.02384352684020996
+  batch 65 loss: 0.027103792876005173
+  batch 66 loss: 0.023902319371700287
+  batch 67 loss: 0.024714302271604538
+  batch 68 loss: 0.02712065912783146
+  batch 69 loss: 0.020919404923915863
+  batch 70 loss: 0.022320695221424103
+  batch 71 loss: 0.022796012461185455
+  batch 72 loss: 0.022483382374048233
+  batch 73 loss: 0.024229194968938828
+  batch 74 loss: 0.024410003796219826
+  batch 75 loss: 0.026088112965226173
+  batch 76 loss: 0.024993903934955597
+  batch 77 loss: 0.02463832125067711
+  batch 78 loss: 0.026156403124332428
+  batch 79 loss: 0.02704395353794098
+  batch 80 loss: 0.024979883804917336
+  batch 81 loss: 0.024721574038267136
+  batch 82 loss: 0.02587619051337242
+  batch 83 loss: 0.02570258267223835
+  batch 84 loss: 0.022918131202459335
+  batch 85 loss: 0.024817481637001038
+  batch 86 loss: 0.024869590997695923
+  batch 87 loss: 0.02604241669178009
+  batch 88 loss: 0.024835869669914246
+  batch 89 loss: 0.02596583217382431
+  batch 90 loss: 0.0248740091919899
+  batch 91 loss: 0.023230960592627525
+  batch 92 loss: 0.024987146258354187
+  batch 93 loss: 0.02500217966735363
+  batch 94 loss: 0.024333268404006958
+  batch 95 loss: 0.027316398918628693
+  batch 96 loss: 0.023816023021936417
+  batch 97 loss: 0.024733643978834152
+  batch 98 loss: 0.02847384102642536
+  batch 99 loss: 0.02497493289411068
+  batch 100 loss: 0.022646024823188782
+  batch 101 loss: 0.02261773869395256
+  batch 102 loss: 0.02548251673579216
+  batch 103 loss: 0.023637622594833374
+  batch 104 loss: 0.02432430163025856
+  batch 105 loss: 0.024636460468173027
+  batch 106 loss: 0.023664355278015137
+  batch 107 loss: 0.023131925612688065
+  batch 108 loss: 0.0235932394862175
+  batch 109 loss: 0.026282085105776787
+  batch 110 loss: 0.02221457101404667
+  batch 111 loss: 0.026662740856409073
+  batch 112 loss: 0.0267733596265316
+  batch 113 loss: 0.023604262620210648
+  batch 114 loss: 0.026292763650417328
+  batch 115 loss: 0.022467758506536484
+  batch 116 loss: 0.021239150315523148
+  batch 117 loss: 0.024034686386585236
+  batch 118 loss: 0.024564266204833984
+  batch 119 loss: 0.01970280334353447
+  batch 120 loss: 0.02191275544464588
+  batch 121 loss: 0.021016182377934456
+  batch 122 loss: 0.023112952709197998
+  batch 123 loss: 0.02251603454351425
+  batch 124 loss: 0.02520846761763096
+  batch 125 loss: 0.02728446200489998
+  batch 126 loss: 0.027820445597171783
+  batch 127 loss: 0.02447305992245674
+  batch 128 loss: 0.024376142770051956
+  batch 129 loss: 0.02531098946928978
+  batch 130 loss: 0.024239301681518555
+  batch 131 loss: 0.024829063564538956
+  batch 132 loss: 0.026741884648799896
+  batch 133 loss: 0.022676391527056694
+  batch 134 loss: 0.025104815140366554
+  batch 135 loss: 0.023324623703956604
+  batch 136 loss: 0.02524220198392868
+  batch 137 loss: 0.024846240878105164
+  batch 138 loss: 0.025732286274433136
+  batch 139 loss: 0.02541918121278286
+  batch 140 loss: 0.024732626974582672
+  batch 141 loss: 0.024109337478876114
+  batch 142 loss: 0.022603511810302734
+  batch 143 loss: 0.026223892346024513
+  batch 144 loss: 0.023790596053004265
+  batch 145 loss: 0.023780979216098785
+  batch 146 loss: 0.023128025233745575
+  batch 147 loss: 0.02337643876671791
+  batch 148 loss: 0.024872276932001114
+  batch 149 loss: 0.023358672857284546
+  batch 150 loss: 0.025601401925086975
+*********************matrice de confusion***************train******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.51      0.43      0.47       153
+         1.0       0.49      0.56      0.52       147
+    accuracy                           0.50       300
+   macro avg       0.50      0.50      0.50       300
+weighted avg       0.50      0.50      0.49       300
+*********************matrice de confusion***************validation******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.54      0.28      0.37        50
+         1.0       0.52      0.76      0.62        51
+    accuracy                           0.52       101
+   macro avg       0.53      0.52      0.49       101
+weighted avg       0.53      0.52      0.49       101
+LOSS train 5.1505517214536664e-05 valid 0.024301212280988693
+acc train 0.49666666666666665 valid 0.5247524752475248
+precision train 0.49666666666666665 valid 0.5247524752475248
+EPOCH 2:
+  batch 1 loss: 0.025190627202391624
+  batch 1 loss: 5.038125440478325e-05
+  batch 2 loss: 0.021451059728860855
+  batch 3 loss: 0.02367752231657505
+  batch 4 loss: 0.024386636912822723
+  batch 5 loss: 0.0212307907640934
+  batch 6 loss: 0.02212693728506565
+  batch 7 loss: 0.024471132084727287
+  batch 8 loss: 0.025425396859645844
+  batch 9 loss: 0.024228133261203766
+  batch 10 loss: 0.024144131690263748
+  batch 11 loss: 0.025860697031021118
+  batch 12 loss: 0.023949801921844482
+  batch 13 loss: 0.022721722722053528
+  batch 14 loss: 0.02288885787129402
+  batch 15 loss: 0.027161085978150368
+  batch 16 loss: 0.025675414130091667
+  batch 17 loss: 0.023945821449160576
+  batch 18 loss: 0.022296495735645294
+  batch 19 loss: 0.02196938917040825
+  batch 20 loss: 0.023037690669298172
+  batch 21 loss: 0.024062983691692352
+  batch 22 loss: 0.02475997805595398
+  batch 23 loss: 0.026773877441883087
+  batch 24 loss: 0.02386501058936119
+  batch 25 loss: 0.02533569186925888
+  batch 26 loss: 0.025062046945095062
+  batch 27 loss: 0.02381652407348156
+  batch 28 loss: 0.022932201623916626
+  batch 29 loss: 0.023144591599702835
+  batch 30 loss: 0.02572343870997429
+  batch 31 loss: 0.02570047602057457
+  batch 32 loss: 0.02554677054286003
+  batch 33 loss: 0.023778488859534264
+  batch 34 loss: 0.022758815437555313
+  batch 35 loss: 0.02425042912364006
+  batch 36 loss: 0.0227244570851326
+  batch 37 loss: 0.024346832185983658
+  batch 38 loss: 0.023092063143849373
+  batch 39 loss: 0.02452961355447769
+  batch 40 loss: 0.025404250249266624
+  batch 41 loss: 0.023075461387634277
+  batch 42 loss: 0.022683624178171158
+  batch 43 loss: 0.02493435889482498
+  batch 44 loss: 0.02712261490523815
+  batch 45 loss: 0.02129167690873146
+  batch 46 loss: 0.0251255314797163
+  batch 47 loss: 0.025102930143475533
+  batch 48 loss: 0.024858463555574417
+  batch 49 loss: 0.02374623343348503
+  batch 50 loss: 0.02754278853535652
+  batch 51 loss: 0.024124592542648315
+  batch 52 loss: 0.021562814712524414
+  batch 53 loss: 0.025853753089904785
+  batch 54 loss: 0.02353430725634098
+  batch 55 loss: 0.02753084897994995
+  batch 56 loss: 0.024435099214315414
+  batch 57 loss: 0.024648530408740044
+  batch 58 loss: 0.025211656466126442
+  batch 59 loss: 0.027088820934295654
+  batch 60 loss: 0.025499306619167328
+  batch 61 loss: 0.022778138518333435
+  batch 62 loss: 0.02337784320116043
+  batch 63 loss: 0.02492968551814556
+  batch 64 loss: 0.02637512981891632
+  batch 65 loss: 0.025849822908639908
+  batch 66 loss: 0.022583279758691788
+  batch 67 loss: 0.02372351661324501
+  batch 68 loss: 0.026005621999502182
+  batch 69 loss: 0.021486695855855942
+  batch 70 loss: 0.02278403751552105
+  batch 71 loss: 0.023039963096380234
+  batch 72 loss: 0.0233752503991127
+  batch 73 loss: 0.024601228535175323
+  batch 74 loss: 0.02497430518269539
+  batch 75 loss: 0.0243636816740036
+  batch 76 loss: 0.024552375078201294
+  batch 77 loss: 0.02798069827258587
+  batch 78 loss: 0.02511725202202797
+  batch 79 loss: 0.023748032748699188
+  batch 80 loss: 0.02395973913371563
+  batch 81 loss: 0.024445869028568268
+  batch 82 loss: 0.02498408406972885
+  batch 83 loss: 0.025030340999364853
+  batch 84 loss: 0.02358342707157135
+  batch 85 loss: 0.025728510692715645
+  batch 86 loss: 0.024075835943222046
+  batch 87 loss: 0.024268396198749542
+  batch 88 loss: 0.023057136684656143
+  batch 89 loss: 0.02500714734196663
+  batch 90 loss: 0.02371835708618164
+  batch 91 loss: 0.022435888648033142
+  batch 92 loss: 0.023675620555877686
+  batch 93 loss: 0.025540584698319435
+  batch 94 loss: 0.022024525329470634
+  batch 95 loss: 0.025546086952090263
+  batch 96 loss: 0.024275287985801697
+  batch 97 loss: 0.02233007550239563
+  batch 98 loss: 0.02581418864428997
+  batch 99 loss: 0.021808870136737823
+  batch 100 loss: 0.02408391237258911
+  batch 101 loss: 0.022730767726898193
+  batch 102 loss: 0.024130860343575478
+  batch 103 loss: 0.021853052079677582
+  batch 104 loss: 0.02497434802353382
+  batch 105 loss: 0.024153999984264374
+  batch 106 loss: 0.023435968905687332
+  batch 107 loss: 0.022912200540304184
+  batch 108 loss: 0.02505487948656082
+  batch 109 loss: 0.025057248771190643
+  batch 110 loss: 0.02172800339758396
+  batch 111 loss: 0.02576471120119095
+  batch 112 loss: 0.025073353201150894
+  batch 113 loss: 0.022201616317033768
+  batch 114 loss: 0.024865036830306053
+  batch 115 loss: 0.02283284068107605
+  batch 116 loss: 0.024671083316206932
+  batch 117 loss: 0.02382815256714821
+  batch 118 loss: 0.022758394479751587
+  batch 119 loss: 0.020138811320066452
+  batch 120 loss: 0.022715434432029724
+  batch 121 loss: 0.021312210708856583
+  batch 122 loss: 0.022749070078134537
+  batch 123 loss: 0.02279345877468586
+  batch 124 loss: 0.02383456565439701
+  batch 125 loss: 0.023193784058094025
+  batch 126 loss: 0.027842886745929718
+  batch 127 loss: 0.023267623037099838
+  batch 128 loss: 0.022772422060370445
+  batch 129 loss: 0.025152448564767838
+  batch 130 loss: 0.02345547080039978
+  batch 131 loss: 0.024777550250291824
+  batch 132 loss: 0.026776831597089767
+  batch 133 loss: 0.023735329508781433
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/lib/exit_hooks.py", line 41, in exc_handler
+    def exc_handler(
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 459, in <module>
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 380, in train_one_epoch
+    concatenated_tensor_predicted= torch.empty(0)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1284, in _get_data
+    success, data = self._try_get_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _Manager._atexit_setup.<locals>.<lambda> at 0x7fcf7005f250>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 156, in <lambda>
+    self._atexit_lambda = lambda: self._atexit_teardown()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 165, in _atexit_teardown
+    self._teardown(exit_code)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 168, in _teardown
+    unregister_all_post_import_hooks()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/lib/import_hooks.py", line 100, in unregister_all_post_import_hooks
+    _post_import_hooks.clear()
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method Sentry.end_session of <wandb.analytics.sentry.Sentry object at 0x7fd0026a77c0>>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/analytics/sentry.py", line 43, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/analytics/sentry.py", line 178, in end_session
+    self.hub.end_session()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sentry_sdk/hub.py", line 660, in end_session
+    Scope.get_isolation_scope().end_session()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sentry_sdk/scope.py", line 1188, in end_session
+    Scope.get_client().capture_session(session)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sentry_sdk/client.py", line 764, in capture_session
+    self.session_flusher.add_session(session)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sentry_sdk/sessions.py", line 222, in add_session
+    self.pending_sessions.append(session.to_json())
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/sentry_sdk/session.py", line 159, in to_json
+    "sid": str(self.sid),
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/uuid.py", line 279, in __str__
+    def __str__(self):
+KeyboardInterrupt:
+Exception ignored in atexit callback: <function dump_compile_times at 0x7fd00e436cb0>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 245, in dump_compile_times
+    @atexit.register
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/weakref.py", line 657, in _exitfunc
+    pending = cls._select_for_exit()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/weakref.py", line 638, in _select_for_exit
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/weakref.py", line 638, in <listcomp>
+    L = [(f,i) for (f,i) in cls._registry.items() if i.atexit]
+KeyboardInterrupt: Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 648, in write
+    cb(data)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2304, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1533, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 690, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 79, in _publish_output_raw
+    self._publish(rec)
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+KeyboardInterrupt:
+Exception ignored in atexit callback: <function _exit_function at 0x7fd019ddb520>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/multiprocessing/util.py", line 333, in _exit_function
+    debug('running all "atexit" finalizers with priority >= 0')
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/multiprocessing/util.py", line 48, in debug
+    def debug(msg, *args):
+KeyboardInterrupt:
+Exception ignored in atexit callback: <function shutdown at 0x7fd1006264d0>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/logging/__init__.py", line 2181, in shutdown
+    h.acquire()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/logging/__init__.py", line 912, in acquire
+    def acquire(self):

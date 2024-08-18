@@ -1,0 +1,10 @@
+
+EPOCH 1:
+  batch 1 loss: 0.000238192155957222
+*********************matrice de confusion***************train******epoch  0
+              precision    recall  f1-score   support
+         0.0       0.50      0.80      0.61       165
+         1.0       0.41      0.15      0.22       156
+    accuracy                           0.48       321
+   macro avg       0.45      0.47      0.42       321
+weighted avg       0.46      0.48      0.42       321

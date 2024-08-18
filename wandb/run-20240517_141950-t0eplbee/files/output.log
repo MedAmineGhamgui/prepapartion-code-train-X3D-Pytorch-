@@ -1,0 +1,24 @@
+
+EPOCH 1:
+Traceback (most recent call last):
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 438, in <module>
+    resultat_train_one_epoch= train_one_epoch(epoch_number, writer)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 363, in train_one_epoch
+    for i, data in enumerate(training_loader):
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ubuntu/anaconda3/envs/yowo/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 140, in __getitem__
+    frame_idx, video_clip, target = self.pull_item(idx)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 150, in pull_item
+    annotations=self.class_to_list(labels,self.num_classes)
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 114, in class_to_list
+    l_entiers = [int(element) for element in l]
+  File "/home/ubuntu/pytorchvideoamine-main/trainX3D.py", line 114, in <listcomp>
+    l_entiers = [int(element) for element in l]
+ValueError: invalid literal for int() with base 10: '1.1'
