@@ -25,3 +25,5 @@ Pour lancer l'entraînement, suivez les étapes ci-dessous :
 3. Lancez le script d'entraînement :
    python trainX3D.py
 
+---
+Cette version est développée par Mohamed Amine Ghamgui.
